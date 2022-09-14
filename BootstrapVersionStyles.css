@@ -7,7 +7,9 @@
     background-color: rgb(0, 88, 139);
   }
 }
-
+body{
+  width:100vw;
+}
 .navbar {
   position: absolute;
   top: 0px;
