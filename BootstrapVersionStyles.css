@@ -65,6 +65,7 @@ body{
   z-index: 0;
   background-color: rgb(212, 242, 252);
   height: 100vh;
+  width:50vw;
 }
 
 .row-1-bg-2 {
@@ -73,6 +74,7 @@ body{
   background-size: cover;
   height: 100vh;
   background-image: url("images/xbg_2.jpg");
+  width:50vw;
 }
 @media only screen and (max-width: 768px) {
   .row-1-bg-2 {
@@ -266,6 +268,7 @@ body{
   justify-content: flex-end;
   min-height: 30vh;
   margin-bottom: 30px;
+  width:100vw;
 }
 
 .row-5 {
@@ -273,6 +276,7 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width:100vw;
 }
 
 .r5-desktop-s1 {
@@ -332,6 +336,7 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width:100vw;
 }
 
 .r6-desktop-s1 {
@@ -427,6 +432,7 @@ body{
   background-color: rgb(236, 233, 233);
   display: flex;
   flex-direction: column;
+  width:100vw;
 }
 
 .r8-headings {
@@ -766,6 +772,7 @@ body{
 
 .row-9 {
   background-color: white;
+  width:100vw;
 }
 
 .row-9-heading {
@@ -894,6 +901,7 @@ body{
 .row-10 {
   background-color: rgb(212, 242, 252);
   padding: 70px;
+  width:100vw;
 }
 @media only screen and (max-width: 768px) {
   .row-10 {
@@ -1108,6 +1116,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  width:100vw;
 }
 @media only screen and (max-width: 768px) {
   .row-11 {
