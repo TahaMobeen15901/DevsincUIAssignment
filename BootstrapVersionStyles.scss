@@ -25,7 +25,7 @@
   z-index: 4 !important;
 }
 .navbar-nav{
-  margin-left: 46%;
+  margin-left: 58%;
   @include mobile(768px){
     margin-left: 0%;
   }
@@ -101,7 +101,7 @@
   flex-wrap: wrap;
   width:100vw;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-top:10px;
   .card{
     width: 23vw;
@@ -167,7 +167,6 @@
   display: grid;
   grid-template-columns: repeat(2,50%);
   @include mobile(768px){
-    width:100vw;
     background-image: url("images/xbg_4 1.jpg");
     background-repeat: no-repeat;
   }

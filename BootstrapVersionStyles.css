@@ -29,7 +29,7 @@
 }
 
 .navbar-nav {
-  margin-left: 46%;
+  margin-left: 58%;
 }
 @media only screen and (max-width: 768px) {
   .navbar-nav {
@@ -125,7 +125,7 @@
   flex-wrap: wrap;
   width: 100vw;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-top: 10px;
 }
 .row-2 .card {
@@ -204,7 +204,6 @@
 }
 @media only screen and (max-width: 768px) {
   .row-3 {
-    width: 100vw;
     background-image: url("images/xbg_4 1.jpg");
     background-repeat: no-repeat;
   }
