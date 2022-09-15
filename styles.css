@@ -44,7 +44,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .r1 {
-    width: 109%;
+    width: 111%;
   }
 }
 
@@ -462,7 +462,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .row-7 {
-    width: 109%;
+    width: 111%;
   }
 }
 
@@ -513,7 +513,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .row-8 {
-    width: 106%;
+    width: 109%;
   }
 }
 
@@ -993,7 +993,7 @@ html, body {
 @media only screen and (max-width: 768px) {
   .row-10 {
     padding: 40px 10px;
-    width: 109%;
+    width: 111%;
   }
 }
 
@@ -1209,7 +1209,7 @@ html, body {
 @media only screen and (max-width: 768px) {
   .row-11 {
     height: 20vh;
-    width: 109%;
+    width: 111%;
   }
 }
 .row-11 .author-name {
