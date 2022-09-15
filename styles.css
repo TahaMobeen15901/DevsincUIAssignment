@@ -17,7 +17,7 @@ html, body {
   .navbar {
     background-color: rgb(0, 88, 139) !important;
     z-index: 4;
-    width: 105%;
+    width: 105.7%;
   }
 }
 
@@ -44,7 +44,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .r1 {
-    width: 108%;
+    width: 109%;
   }
 }
 
@@ -266,7 +266,7 @@ html, body {
   .row-3 {
     background-image: url("images/xbg_4 1.jpg");
     background-repeat: no-repeat;
-    width: 105.3%;
+    width: 106%;
   }
 }
 
@@ -462,7 +462,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .row-7 {
-    width: 105.5%;
+    width: 105.7%;
   }
 }
 
@@ -513,7 +513,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .row-8 {
-    width: 104.8%;
+    width: 106%;
   }
 }
 
@@ -993,7 +993,7 @@ html, body {
 @media only screen and (max-width: 768px) {
   .row-10 {
     padding: 40px 10px;
-    width: 104.8%;
+    width: 106%;
   }
 }
 
@@ -1209,7 +1209,7 @@ html, body {
 @media only screen and (max-width: 768px) {
   .row-11 {
     height: 20vh;
-    width: 104.8%;
+    width: 106%;
   }
 }
 .row-11 .author-name {
