@@ -10,14 +10,14 @@ html, body {
   background-color: none !important;
   position: absolute;
   top: 0px;
-  width: 100%;
+  width: 50%;
   z-index: 1;
 }
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: rgb(0, 88, 139) !important;
     z-index: 4;
-    width: 95%;
+    width: 50%;
   }
 }
 
@@ -40,7 +40,7 @@ html, body {
 }
 
 .r1 {
-  width: 101.8%;
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
   .r1 {
@@ -122,12 +122,12 @@ html, body {
   justify-content: center;
   align-items: center;
   margin: 0.5% 0px;
-  width: 101%;
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
   .row-2 {
     margin: 0px 0.5%;
-    width: 104%;
+    width: 100%;
   }
 }
 
@@ -258,7 +258,7 @@ html, body {
 .row-3 {
   background-image: url("images/xbg_4.jpg");
   background-repeat: no-repeat;
-  width: 100.8%;
+  width: 100%;
   display: grid;
   grid-template-columns: 60% 40%;
 }
@@ -266,7 +266,7 @@ html, body {
   .row-3 {
     background-image: url("images/xbg_4 1.jpg");
     background-repeat: no-repeat;
-    width: 105.8%;
+    width: 100%;
   }
 }
 
@@ -338,11 +338,11 @@ html, body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 101%;
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
   .row-5 {
-    width: 104.9%;
+    width: 100%;
   }
 }
 
@@ -403,11 +403,11 @@ html, body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 101%;
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
   .row-6 {
-    width: 104.9%;
+    width: 10%;
   }
 }
 
@@ -457,12 +457,12 @@ html, body {
   background-color: rgb(212, 242, 252);
   display: flex;
   flex-direction: column;
-  width: 100.9%;
+  width: 100%;
   margin: 0;
 }
 @media only screen and (max-width: 768px) {
   .row-7 {
-    width: 106%;
+    width: 100%;
   }
 }
 
@@ -509,11 +509,11 @@ html, body {
   background-color: rgb(236, 233, 233);
   display: flex;
   flex-direction: column;
-  width: 101%;
+  width: 50%;
 }
 @media only screen and (max-width: 768px) {
   .row-8 {
-    width: 106%;
+    width: 50%;
   }
 }
 
@@ -988,12 +988,12 @@ html, body {
 .row-10 {
   background-color: rgb(212, 242, 252);
   padding: 70px;
-  width: 101%;
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
   .row-10 {
     padding: 40px 10px;
-    width: 103%;
+    width: 100%;
   }
 }
 
@@ -1204,12 +1204,12 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 101%;
+  width: 100%;
 }
 @media only screen and (max-width: 768px) {
   .row-11 {
     height: 20vh;
-    width: 103%;
+    width: 100%;
   }
 }
 .row-11 .author-name {
