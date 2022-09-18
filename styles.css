@@ -17,7 +17,7 @@ html, body {
   .navbar {
     background-color: rgb(0, 88, 139) !important;
     z-index: 4;
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -44,7 +44,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .r1 {
-    width: 115%;
+    width: 100%;
   }
 }
 
