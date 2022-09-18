@@ -16,6 +16,7 @@ html, body {
   .navbar {
     background-color: rgb(0, 88, 139) !important;
     z-index: 4;
+    width: 100%;
   }
 }
 
