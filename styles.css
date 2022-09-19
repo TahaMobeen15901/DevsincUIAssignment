@@ -44,7 +44,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .r1 {
-    width: 107.6%;
+    width: 107.3%;
   }
 }
 
@@ -267,7 +267,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .row-3 {
-    width: 100%;
+    width: 105%;
   }
 }
 
@@ -330,7 +330,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .row-4 {
-    width: 104%;
+    width: 105%;
   }
 }
 
@@ -343,7 +343,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .row-5 {
-    width: 104%;
+    width: 105%;
   }
 }
 
@@ -408,7 +408,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .row-6 {
-    width: 104%;
+    width: 105%;
   }
 }
 
@@ -859,7 +859,7 @@ html, body {
 }
 @media only screen and (max-width: 768px) {
   .row-9 {
-    width: 104%;
+    width: 105%;
   }
 }
 
@@ -994,7 +994,7 @@ html, body {
 @media only screen and (max-width: 768px) {
   .row-10 {
     padding: 40px 10px;
-    width: 104.4%;
+    width: 104.5%;
   }
 }
 
