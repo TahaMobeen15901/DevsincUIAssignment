@@ -3,44 +3,43 @@ $r1bg1: rgb(212, 242, 252);
 $r1btntxt: rgb(36, 135, 168);
 $myorange: rgb(211, 138, 4);
 $nvwd: 100%;
-$nvwm: 105%;
-$r1wd: 101.8%;
-$r1wm: 108%;
-$r2wd: 101%;
-$r2wm: 104%;
-$r3wd: 100.8%;
-$r3wm: 105.3%;
+$nvwm: 99.8vw;
+$r1wd: 100vw;
+$r1wm: 100vw;
+$r2wd: auto;
+$r2wm: auto;
+$r3wd: 100%;
+$r3wm: 100vw;
 $r4wd: 100%;
-$r4wm: 100%;
-$r5wd: 101%;
-$r5wm: 104.9%;
-$r6wd: 101%;
-$r6wm: 104.9%;
-$r7wd: 100.9%;
-$r7wm: 105.5%;
-$r8wd: 101%;
-$r8wm: 104.8%;
+$r4wm: 100vw;
+$r5wd: 100%;
+$r5wm: 100%;
+$r6wd: 100%;
+$r6wm: 100vw;
+$r7wd: 100%;
+$r7wm: 100vw;
+$r8wd: 100%;
+$r8wm: 100vw;
 $r9wd: 100%;
-$r9wm: 100%;
-$r10wd: 101%;
-$r10wm: 104.8%;
-$r11wd: 101%;
-$r11wm: 104.8%;
+$r9wm: 100vw;
+$r10wd: 100%;
+$r10wm: 100vw;
+$r11wd: 100%;
+$r11wm: 100vw;
 @mixin mobile($width){
     @media only  screen and (max-width: $width){
         @content
     }
 }
+body{
+  display:flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
 @mixin r2logo {
   border-radius: 100%;        
   font-size: large;
   padding: 5px;
-}
-html,body{
-    width:100%;
-    height:100%;
-    margin:0px;
-    padding: 0px;
 }
 .navbar{
     background-color: none !important;
@@ -86,11 +85,12 @@ html,body{
     z-index: 0;
     background-repeat: no-repeat;
     height:100vh;
-    background-image: url('images/xbg_2.jpg');
+    background-color: #90b3c9;
     width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     @include mobile(768px){
-      background-image: url('images/xbg_2.webp');
-      background-size: 100% 100vh;
       width:70%;
     }
 }
@@ -136,14 +136,13 @@ html,body{
   margin: 0.5% 0px ;
   width: $r2wd;
   @include mobile(768px){
-    margin: 0px 0.5% ;
     width:$r2wm;
   }
 }
 .r2-c1{
   background-color: rgb(252, 213, 252);
   width: 23%;
-  margin:  0px 0.5%;
+  margin:  0px 1%;
   height: 40vh;
   border-radius: 0%;
   border:none;
@@ -155,7 +154,6 @@ html,body{
   @include mobile(768px){
     width:100%;
     min-height: 200px;
-    margin: 0.5% 0px ;
   }
   .crd-title{
     font-weight: bold;
@@ -176,7 +174,6 @@ html,body{
   @include mobile(768px){
     width:100%;
     min-height: 200px;
-    margin: 1% 0px ;
   }
   .crd-title{
     font-weight: bold;
@@ -197,7 +194,6 @@ html,body{
   @include mobile(768px){
     width:100%;
     min-height: 200px;
-    margin: 1% 0px ;
   }
   .crd-title{
     font-weight: bold;
@@ -218,7 +214,6 @@ html,body{
   @include mobile(768px){
     width:100%;
     min-height: 200px;
-    margin: 1% 0px ;
   }
   .crd-title{
     font-weight: bold;
@@ -241,14 +236,11 @@ html,body{
   @include r2logo;
 }
 .row-3{
-  background-image: url("images/xbg_4.jpg");
-  background-repeat: no-repeat;
   width: $r3wd;
   display: grid;
   grid-template-columns: 60% 40%;
+  background-color: rgb(235, 226, 220);
   @include mobile(768px){
-    background-image: url("images/xbg_4 1.jpg");
-    background-repeat: no-repeat;
     width: $r3wm;
   }
 }
@@ -396,7 +388,6 @@ html,body{
   display:flex;
   flex-direction: column;
   width:$r7wd;
-  margin:0;
   @include mobile(768px){
     width: $r7wm;
   }
@@ -612,10 +603,10 @@ html,body{
     position:absolute;
     height: 24px;
     width: 24px;
-    left:86%;
+    left:81%;
     z-index: 2;
     @include mobile(768px){
-      left:53%;
+      left:55.5%;
     }
     display:flex;
     justify-content: center;
@@ -629,10 +620,10 @@ html,body{
     position:absolute;
     height: 24px;
     width: 24px;
-    left:52%;
+    left:51.5%;
     z-index: 2;
     @include mobile(768px){
-      left:53%;
+      left:55.5%;
     }
     display:flex;
     justify-content: center;
@@ -646,10 +637,10 @@ html,body{
     position:absolute;
     height: 24px;
     width: 24px;
-    left:20%;
+    left:22.5%;
     z-index: 2;
     @include mobile(768px){
-      left:53%;
+      left:55.5%;
     }
     display:flex;
     justify-content: center;
