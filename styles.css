@@ -258,7 +258,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .row-3 {
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -321,7 +321,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .row-4 {
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -330,11 +330,11 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  width: 90%;
 }
 @media only screen and (max-width: 768px) {
   .row-5 {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -399,7 +399,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .row-6 {
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -453,7 +453,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .row-7 {
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -504,7 +504,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .row-8 {
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -849,7 +849,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .row-9 {
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -984,7 +984,7 @@ body {
 @media only screen and (max-width: 768px) {
   .row-10 {
     padding: 40px 10px;
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -1200,7 +1200,7 @@ body {
 @media only screen and (max-width: 768px) {
   .row-11 {
     height: 20vh;
-    width: 100%;
+    width: 100vw;
   }
 }
 .row-11 .author-name {
